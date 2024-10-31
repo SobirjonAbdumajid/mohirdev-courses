@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <h1> Customer List Page</h1>
+        {% for i in customers %}
+            <p> {{i.id }}  </p>
+            <p> {{i.name }}  </p>
+            <p> {{i.surname }}  </p>
+            <p> {{i.age }}  </p>
+            <p> {{i.address }}  </p>
+        {% endfor %}
+    </body>
+</html>

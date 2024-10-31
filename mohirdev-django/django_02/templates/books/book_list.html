@@ -1,0 +1,11 @@
+<h1>Barcha kitoblar shu yirda</h1>
+
+{% for book in object_list %}
+    <ul>
+    <li>Title: {{ book.title }}</li>
+    <li>Author: {{ book.author }}</li>
+    <li>Subtitle: {{ book.subtitle }}</li>
+    <li>ISBN: {{ book.isbn }}</li>
+    </ul>
+
+{% endfor %}

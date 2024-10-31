@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <h1> Customer Delete Page</h1>
+        <form method="post">
+            {% csrf_token %}
+            <input type='number', name = 'id', placeholder="Enter your id ...">
+            <button type="submit">Submit </button>
+        </form>
+    </body>
+</html>

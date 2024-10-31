@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <h1> Customer Add Page</h1>
+        <form method="post">
+            {% csrf_token %}
+            <input type='number', name = 'id', placeholder="Enter your id ..."> 
+            <input type='text', name = 'name', placeholder="Enter your name ..."> 
+            <input type='text', name = 'surname', placeholder="Enter your surname ..."> 
+            <input type='text', name = 'age', placeholder="Enter your age ..."> 
+            <input type='text', name = 'address', placeholder="Enter your address ..."> 
+            <button type="submit">Submit </button>
+        </form>
+    </body>
+</html>
