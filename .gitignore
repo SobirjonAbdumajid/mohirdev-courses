@@ -140,6 +140,8 @@ env.bak/
 venv.bak/
 *.exe
 *.png
+*.csv
+*.jpg
 
 # Spyder project settings
 .spyderproject
