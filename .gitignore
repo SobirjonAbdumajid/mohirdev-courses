@@ -127,6 +127,9 @@ env/
 .env
 __pycache__
 .idea
+project_venv/
+my_env/
+My_env/
 my_venv/
 venv/
 Myvenv/
@@ -142,6 +145,7 @@ venv.bak/
 *.png
 *.csv
 *.jpg
+*.rar
 
 # Spyder project settings
 .spyderproject
